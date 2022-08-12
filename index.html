@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--<link rel="stylesheet" href="css/reset.css">!-->
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="lds-dual-ring"></div>
+    </div>
+    
+    <div class="content">
+        <div class="main-content main-content-header">
+            <header>
+                <img src="img/head-1.png" srcset="img/head-1.png 1x, img/head-1@2x.png 2x">
+                <img src="img/head-2.png" srcset="img/head-2.png 1x, img/head-2@2x.png 2x">
+                <img src="img/head-3.png" srcset="img/head-3.png 1x, img/head-3@2x.png 2x">
+                <div class="contact-us">
+                    <div class="contact-title">Place your ad here</div>
+                    <a href="#contact" class="btn contact-btn scroll-contact">Contact us</a>
+                </div>
+            </header>
+
+            <section class="section-cloud">
+                <a href="#contact" class="contact-request scroll-contact">Contact us / Request features</a>
+                <div class="flex-cloud">
+                    <div class="main-info">
+                        <h1 class="main-title title-cloud">How much to cloud?</h1>
+                        <p class="main-text">Cloud services facilitate the flow of user data from front-end clients (e.g. users’ servers, tablets, desktops, laptops—anything on the users’ ends), through the internet, to the provider’s systems, and back.</p>
+                        <div class="main-buttons">
+                            <button class="standart-button btn-main bm-active">Standard</button>
+                            <button class="advanced-button btn-main">Advanced</button>
+                        </div>
+
+                        <div class="mobile-advertising">
+                            <img src="img/head-1.png" srcset="img/head-1.png 1x, img/head-1@2x.png 2x">
+                        </div>
+                    </div>
+                    <div class="cloud-vector">
+                        <img src="img/cloud.svg" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="main-content">
+            <form>
+                <section class="section-server">
+                    <div class="amount-sd">
+                        <div class="title-number">Number of servers</div>
+                        <div>
+                            <input type="text" class="input-styles main-input input-value-frame" placeholder="Enter amount of servers" name="number-server">
+                        </div>
+                    </div>
+                    <div class="main-frame">
+                            <div class="title-frame">Server 1</div>
+                            <div class="flex-frame">
+                                <div class="block-input-frame">
+                                    <div class="title-input">Number of CPUs *</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter number of CPUs" name="number-cpu" >
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Amount of RAM *</div>
+                                    <div class="gb-icon">
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter amount of RAM" name="amount-ram">
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame standart-block">
+                                    <div class="title-input">Monthly traffic</div>
+                                    <div class="tb-icon">
+                                        <input type="text" class="input-styles standart-input input-value-frame" placeholder="Enter monthly traffic" name="monthly-traffic">
+                                    </div>
+                                </div> 
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Disk space *</div>
+                                    <div class="gb-icon">
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter number of CPUs" name="disk-number-cpu">
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Operating system *</div>
+                                    <select name="select-operating-system" id="select" class="custom-select input-value-frames" placeholder="Select operating system">
+                                        <option value="windows">Windows</option>
+                                        <option value="linux">Linux</option>
+                                    </select>
+                                </div>
+
+                                <!-- ADVACNED -->
+
+                                <div class="block-input-frame advanced-block">
+                                    <div class="title-input">Max CPU utilization in a day</div>
+                                    <div class="pr-icon">
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter max CPU utilization in a day" name="cpu-utilization">
+                                    </div>
+                                    <div class="copy-block"> 
+                                    Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame advanced-block">
+                                    <div class="title-input">Max RAM utilization in a day *</div>
+                                    <div class="pr-icon">
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Max RAM utilization in a day" name="ram-utilization" >
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame advanced-block">
+                                    <div class="title-input">Network bandwidth In</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter network bandwidth In" name="bandwidth-in" > 
+                                    </div>
+                                    <div class="copy-block"> 
+                                        Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame advanced-block">
+                                    <div class="title-input">Network bandwidth out</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter network bandwidth out" name="bandwidth-out" >
+                                    </div>
+                                    <div class="copy-block"> 
+                                        Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame advanced-block">
+                                    <div class="title-input">Maximum page hits per day *</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter maximum queries per second" name="queries-per-second" >
+                                    </div>
+                                    <div class="copy-block"> 
+                                        Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Empty -->
+
+                                <div class="block-input-frame empty-block"></div>
+                            </div>
+                    </div>
+                </section>
+
+                <section class="section-database advanced-block">
+                    <div class="amount-sd">
+                        <div class="title-number">Number of databases</div>
+                        <div>
+                            <input type="text" class="input-styles main-input input-value-frame" placeholder="Enter number of databases" name="number-database" >
+                        </div>
+                    </div>
+                    <div class="main-frame">
+                            <div class="title-frame">Database 1</div>
+                            <div class="flex-frame">
+                                <div class="block-input-frame">
+                                    <div class="title-input">Number of CPUs *</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter number of CPUs" name="number-cpu-database" >
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Amount of RAM *</div>
+                                    <div class="gb-icon">
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter amount of RAM" name="amount-ram-database" >
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Database type *</div>
+                                    <select name="database-type" id="select" class="custom-select input-value-frame" placeholder="Enter database type"  >
+                                        <option value="windows">Windows</option>
+                                        <option value="linux">Linux</option>
+                                    </select>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Max CPU utilization in a day</div>
+                                    <div class="pr-icon">
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter max CPU utilization in a day" name="cpu-utilization-database" >
+                                    </div>
+                                <div class="copy-block"> 
+                                    Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Max RAM utilization in a day *</div>
+                                    <div class="pr-icon">
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Max RAM utilization in a day" name="ram-utilization-database">
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Network bandwidth In</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter network bandwidth In"  name="bandwidth-in-database">
+                                    </div>
+                                    <div class="copy-block"> 
+                                        Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Network bandwidth out</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter network bandwidth out" name="bandwidth-out-database" >
+                                    </div>
+                                    <div class="copy-block"> 
+                                        Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <div class="block-input-frame">
+                                    <div class="title-input">Maximum page hits per day *</div>
+                                    <div>
+                                        <input type="text" class="input-styles input-value-frame" placeholder="Enter maximum queries per second"  name="maximum-querie-database">
+                                    </div>
+                                    <div class="copy-block"> 
+                                        Copy Linux command<span class="tooltips copy" tooltip="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." tooltip-position="bottom"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Empty -->
+
+                                <div class="block-input-frame empty-block-advanced"></div>
+                            </div>
+                    </div>
+
+                    <div class="flex-ch-form">
+                        <div>
+                            <div class="title-checkbox">High Availability</div>
+                            <div class="flex-checbox">
+                                <p>
+                                    <input type="radio" id="test1" name="radio-group" checked>
+                                    <label for="test1" class="yes-no">Yes</label>
+                                </p>
+                                <p>
+                                    <input type="radio" id="test2" name="radio-group">
+                                    <label for="test2" class="yes-no">No</label>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space-checkbox">
+                            <div class="title-checkbox">CDN</div>
+                            <div class="flex-checbox">
+                                <p>
+                                    <input type="radio" id="test3" name="radio-group-2" checked>
+                                    <label for="test3" class="yes-no">Yes</label>
+                                </p>
+                                <p>
+                                    <input type="radio" id="test4" name="radio-group-2">
+                                    <label for="test4" class="yes-no">No</label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="calculate-block">
+                    <button class="btn btn-calculate">Calculate</button>
+                </div>
+
+            </form>
+
+            <div class="mobile-advertising">
+                <img src="img/head-2.png" srcset="img/head-2.png 1x, img/head-2@2x.png 2x">
+            </div>
+
+            <section class="section-result" id="result-section">
+                <h2 class="title-result">Results</h2>
+                <div class="flex-result">
+                    <div class="block-result">
+                        <div class="cp-logo">
+                            <img src="img/cp-aws.png" srcset="img/cp-aws.png 1x, img/cp-aws@2x.png 2x">
+                        </div>
+                        <div class="result-name">Service name</div>
+                        <div class="result-value">Amazon Service Name</div>
+                        <div class="result-name">Instance type</div>
+                        <div class="result-value">FORGEd Instances</div>
+                        <div class="result-name">Number of intances</div>
+                        <div class="result-value">6 Standard instances</div>
+                        <div class="result-name">Cost</div>
+                        <div class="result-value">1270.34 $</div>
+                    </div>
+
+                    <div class="block-result">
+                        <div class="cp-logo">
+                            <img src="img/cp-azure.png" srcset="img/cp-azure.png 1x, img/cp-azure@2x.png 2x">
+                        </div>
+                        <div class="result-name">Service name</div>
+                        <div class="result-value">Azure annual subcription service</div>
+                        <div class="result-name">Instance type</div>
+                        <div class="result-value">ERCF Type for Business</div>
+                        <div class="result-name">Number of intances</div>
+                        <div class="result-value">12 Advanced Instances</div>
+                        <div class="result-name">Cost</div>
+                        <div class="result-value">864.35 $</div>
+                    </div>
+
+                    <div class="block-result">
+                        <div class="cp-logo">
+                            <img src="img/cp-google.png" srcset="img/cp-google.png 1x, img/cp-google@2x.png 2x">
+                        </div>
+                        <div class="result-name">Service name</div>
+                        <div class="result-value">Advanced Cloud Options</div>
+                        <div class="result-name">Instance type</div>
+                        <div class="result-value">ATFP Connection type</div>
+                        <div class="result-name">Number of intances</div>
+                        <div class="result-value">14 Standard Instances</div>
+                        <div class="result-name">Cost</div>
+                        <div class="result-value">653.98 $</div>
+                    </div>
+                 </div>
+            </section>
+
+            <div class="mobile-advertising">
+                <img src="img/head-3.png" srcset="img/head-3.png 1x, img/head-3@2x.png 2x">
+            </div>
+
+            <section class="contact-section">
+                <div class="main-info">
+                    <h1 class="main-title contant-title" id="contact">Contact us and request features</h1>
+                    <p class="main-text">Send us some feedback on the current functionality of the website and describe what additinal features you would like to see added.</p>
+                    <form action="">
+                        <div class="input-blocks">
+                            <input type="text" class="input-styles" placeholder="Name">
+                        </div>
+                        <div class="input-blocks">
+                            <input type="text" class="input-styles" placeholder="Email">
+                        </div>
+                        <div class="input-blocks">
+                            <textarea class="input-styles" name="" id="" rows="7">Message</textarea>
+                        </div>
+                        <div class="send-block">
+                            <button type="send" class="btn btn-send">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-vector">
+                    <img src="img/contact.svg" alt="">
+                </div>
+            </section>
+        </div>
+
+        
+
+        <div class="sticky-content">
+            <div class="sticky">
+                <div class="contact-us-menu menu-space">
+                    <div class="contact-title">Place your ad here</div>
+                    <a href="#contact" class="btn contact-btn scroll-contact">Contact us</a>
+                </div>
+                <img class="menu-space" src="img/right-1.png" srcset="img/right-1.png 1x, img/right-1@2x.png 2x">
+                <img class="menu-space" src="img/right-2.png" srcset="img/right-2.png 1x, img/right-2@2x.png 2x">
+                <img class="menu-space" src="img/right-3.png" srcset="img/right-3.png 1x, img/right-3@2x.png 2x">
+                <img class="menu-space" src="img/right-2.png" srcset="img/right-2.png 1x, img/right-2@2x.png 2x">
+                <img class="menu-space" src="img/right-3.png" srcset="img/right-3.png 1x, img/right-3@2x.png 2x">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
