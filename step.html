@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="content flex-header">
+            <div class="left-header">
+                <a href="#" class="logotype">
+                    <div class="tag-logo">Tag</div>
+                    <div class="bot-logo">[Bot]</div>
+                </a>
+            </div>
+
+            <div class="burger-menu">
+                <div class="bar">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </div>
+            </div>
+
+            <div class="right-header">
+                <a href="#" class="aws-acc">AWS Accounts</a>
+                <a href="#" class="users">Users</a>
+                <a href="#" class="set-acc line-acc mobile">Account settings</a>
+                <a href="#" class="set-acc mobile">Log out</a>
+                <span class="header-line"></span>
+                <div href="#" class="user-info">
+                    <span class="username">Jane Cooper</span>
+                    <div class="user-img-block">
+                        <img src="./img/user-img.png" class="user-img" alt="">
+                    </div>
+                    <div class="hover-menu">
+                        <a href="#">Account settings</a>
+                        <a href="#">Log out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="step-section flex-step">
+            <div class="left-step">
+                <div class="ls-content">
+                    <div class="title-ls">Just a few simple step and you can start saving!</div>
+                    <div class="steps-block">
+                        <div class="step-content active">
+                            <div>
+                                <input type="checkbox" class="step-checkbox">
+                            </div>
+                            <div>
+                                <div class="number-step">Step 1</div>
+                                <div class="ask-step">Chose your cloud</div>
+                            </div>
+                        </div>
+                        <div class="step-content disabled">
+                            <div>
+                                <input type="checkbox" class="step-checkbox">
+                            </div>
+                            <div>
+                                <div class="number-step">Step 2</div>
+                                <div class="ask-step">Onboard your Cloud Organization/Account</div>
+                            </div>
+                        </div>
+                        <div class="step-content disabled">
+                            <div>
+                                <input type="checkbox" class="step-checkbox">
+                            </div>
+                            <div>
+                                <div class="number-step">Step 3</div>
+                                <div class="ask-step">Choose your tags</div>
+                            </div>
+                        </div>
+                        <div class="step-content disabled">
+                            <div>
+                                <input type="checkbox" class="step-checkbox">
+                            </div>
+                            <div>
+                                <div class="number-step">Step 4</div>
+                                <div class="ask-step">Сonnect your Chat Platform</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-step">
+                <div class="rs-content">
+                    <form action="#">
+                        <div class="step-1">
+                            <div class="step-content active mobile-step">
+                                <div>
+                                    <input type="checkbox" class="step-checkbox">
+                                </div>
+                                <div>
+                                    <div class="number-step">Step 1</div>
+                                    <div class="ask-step">Chose your cloud</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step1-1" name="radio-group" checked>
+                                    <label for="step1-1" class="step-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/aws-logo.svg" class="aws" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step1-2" name="radio-group">
+                                    <label for="step1-2" class="step-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/azure-logo.svg" class="azure" alt="">
+                                            <span class="coming-soon">coming soon</span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step1-3" name="radio-group">
+                                    <label for="step1-3" class="step-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/gcloud-logo.svg" class="gcloud" alt="">
+                                            <span class="coming-soon">coming soon</span>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="step-submit" class="step-submit">Next step</button>
+                            </div>
+                        </div>
+                        <div class="step-2">
+                            <div class="step-content disabled mobile-step">
+                                <div>
+                                    <input type="checkbox" class="step-checkbox">
+                                </div>
+                                <div>
+                                    <div class="number-step">Step 2</div>
+                                    <div class="ask-step">Onboard your Cloud Organization/Account</div>
+                                </div>
+                            </div>
+                            <div class="step-bg">
+                                <div class="flex-welcome">
+                                    <span class="weclome-to">Onboard your Organization</span>
+                                </div>
+                                <p class="text-form">You need to be logged in to your <span class="bold">AWS Management
+                                    account (Organization Root Account)</span> in this browser
+                                    before you can connect TagBot. Tagbot requires billing
+                                    data in order to optimize your AWS spending. <span class="bold blue">Log in</span>
+                                    </p>
+                                <p class="text-form">When the AWS Management Account is onboarded,
+                                    TagBot provides options on Organizational Units to deploy with a single click.</p>
+                                
+                                <a href="#" class="onboard-button">Log in</a>
+                                <p class="text-form">Don't have access to your <span class="bold">AWS Management Account?</span></p>
+                                <p class="text-form">Try <span class="bold">TagBot</span> on any single account.</p>
+                                <div class="flex-sbs">
+                                    <a href="#">Step-by-step guide </a>
+                                    <a href="#">What's in the template?</a>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="step-submit" class="step-submit">Next step</button>
+                            </div>
+                        </div>
+
+                        <div class="step-3_1">
+                            <div class="step-content disabled mobile-step">
+                                <div>
+                                    <input type="checkbox" class="step-checkbox">
+                                </div>
+                                <div>
+                                    <div class="number-step">Step 3</div>
+                                    <div class="ask-step">Choose your tags</div>
+                                </div>
+                            </div>
+                            <div class="step-bg">
+                                <div class="flex-welcome">
+                                    <span class="weclome-to">Choose your tags</span>
+                                </div>
+                                <form action="#">
+                                    <div class="have-standart">Do you have tags standards?</div>
+                                    <div class="flex-radio">
+                                        <p>
+                                            <input type="radio" id="test1" name="radio-group" checked>
+                                            <label for="test1">Yes</label>
+                                        </p>
+                                        <p>
+                                            <input type="radio" id="test2" name="radio-group">
+                                            <label for="test2">No</label>
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+                            <div>
+                                <button class="step-submit" class="step-submit">Next step</button>
+                            </div>
+                        </div>
+
+                        <div class="step-3_2">
+                            <div class="step-content disabled mobile-step">
+                                <div>
+                                    <input type="checkbox" class="step-checkbox">
+                                </div>
+                                <div>
+                                    <div class="number-step">Step 3</div>
+                                    <div class="ask-step">Choose your tags</div>
+                                </div>
+                            </div>
+                            <div class="step-bg">
+                                <div class="flex-welcome">
+                                    <span class="weclome-to">Choose your tags</span>
+                                </div>
+                                <form action="#">
+                                    <div class="have-standart">Do you have tags standards?</div>
+                                    <div class="flex-radio">
+                                        <p>
+                                            <input type="radio" id="test1" name="radio-group" checked>
+                                            <label for="test1">Yes</label>
+                                        </p>
+                                        <p>
+                                            <input type="radio" id="test2" name="radio-group">
+                                            <label for="test2">No</label>
+                                        </p>
+                                    </div>
+                                </form>
+
+                                <div class="key-block">
+                                    <p class="text-form">We will provide you with a standart set of tags:</p>
+                                    <div class="flex-key">
+                                        <a href="#">
+                                            <img src="./img/edit.svg" alt="">
+                                        </a>
+                                        <div class="tag">component_name</div>
+                                    </div>
+                                    <div class="flex-key">
+                                        <a href="#">
+                                            <img src="./img/edit.svg" alt="">
+                                        </a>
+                                        <div class="tag">Name</div>
+                                    </div>
+                                    <div class="flex-key">
+                                        <a href="#">
+                                            <img src="./img/edit.svg" alt="">
+                                        </a>
+                                        <div class="tag">creator</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="step-submit" class="step-submit">Next step</button>
+                            </div>
+                        </div>
+
+                        <div class="step-3_3">
+                            <div class="step-content disabled mobile-step">
+                                <div>
+                                    <input type="checkbox" class="step-checkbox">
+                                </div>
+                                <div>
+                                    <div class="number-step">Step 3</div>
+                                    <div class="ask-step">Choose your tags</div>
+                                </div>
+                            </div>
+                            <div class="step-bg">
+                                <div class="flex-welcome">
+                                    <span class="weclome-to">Choose your tags</span>
+                                </div>
+                                <form action="#">
+                                    <div class="have-standart">Do you have tags standards?</div>
+                                    <div class="flex-radio">
+                                        <p>
+                                            <input type="radio" id="test1" name="radio-group" checked>
+                                            <label for="test1">Yes</label>
+                                        </p>
+                                        <p>
+                                            <input type="radio" id="test2" name="radio-group">
+                                            <label for="test2">No</label>
+                                        </p>
+                                    </div>
+                                </form>
+
+                                <div class="key-block">
+                                    <div class="flex-key-value">
+                                        <div class="block-pswrd">
+                                            <div class="placeholder-container">
+                                                <input type="text" class="focus-input" placeholder=" " />
+                                                <label>Enter key </label>
+                                                <a href="#" class="show-password"><img src="./img/close.svg" alt=""></a>
+                                            </div>
+                                        </div>  
+                                        <a href="#"><img src="./img/delete.svg" alt=""></a>
+                                    </div>
+                                    <div class="flex-key-value">
+                                        <div class="block-pswrd">
+                                            <div class="placeholder-container">
+                                                <input type="text" class="focus-input" placeholder=" " />
+                                                <label>Enter key </label>
+                                                <a href="#" class="show-password"><img src="./img/close.svg" alt=""></a>
+                                            </div>
+                                        </div>  
+                                        <a href="#"><img src="./img/delete.svg" alt=""></a>
+                                    </div>
+                                    <a href="#" class="new-tag">
+                                        <img src="./img/plus.svg" alt="">
+                                        <span>New Tag</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="step-submit" class="step-submit">Next step</button>
+                            </div>
+                        </div>
+
+                        <div class="step-4">
+                            <div class="step-content disabled mobile-step">
+                                <div>
+                                    <input type="checkbox" class="step-checkbox">
+                                </div>
+                                <div>
+                                    <div class="number-step">Step 4</div>
+                                    <div class="ask-step">Сonnect your Chat Platform</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step4-1" name="radio-group" checked>
+                                    <label for="step4-1" class="step4-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/slack-step.svg" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step4-2" name="radio-group">
+                                    <label for="step4-2" class="step4-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/google-step.svg" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step4-3" name="radio-group">
+                                    <label for="step4-3" class="step4-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/gitlab-step.svg" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step4-4" name="radio-group">
+                                    <label for="step4-4" class="step4-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/github-step.svg" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="step-radio-block">
+                                    <input type="radio" id="step4-5" name="radio-group">
+                                    <label for="step4-5" class="step4-label">
+                                        <div class="step-label-img">
+                                            <img src="./img/microsoft-step.svg" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="step-submit" class="step-submit">Finish Onboarding</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+            <div class="modal-header">
+                <button class="modal-close modal-toggle"><img src="./img/close.svg" alt=""></button>
+            </div>
+            <div class="modal-body">
+                <div class="wait-img">
+                    <img src="./img/circle.svg" alt="">
+                </div>
+                <p class="almost-there">You're almost there</p>
+                <p class="check-validation">Please, check your email for validation!</p>
+                <a href="#" class="radio-button">Continue</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+
+    <script>
+        $( document ).ready(function() {
+            $(".step-1 .step-submit").on("click", function(e){
+                $(".step-1").css('display', 'none');
+                $(".step-2").css('display', 'block').css('opacity', '1');
+                if ($(window).width() < 992) {
+                    $(".step-1").css('display', 'block');
+                    $(".step-2").css('opacity', '1');
+                    $('html, body').animate({
+                        scrollTop: $(".step-2").offset().top
+                    }, 2000);
+                }
+                e.preventDefault();
+                e.stopPropagation();
+            });
+
+            $(".step-2 .step-submit").on("click", function(e){
+                $(".step-2").css('display', 'none');
+                $(".step-3_1").css('display', 'block').css('opacity', '1');
+                if ($(window).width() < 992) {
+                    $(".step-2").css('display', 'block');
+                    $(".step-3_1").css('opacity', '1');
+                    $('html, body').animate({
+                        scrollTop: $(".step-3_1").offset().top
+                    }, 2000);
+                }
+                e.preventDefault();
+                e.stopPropagation();
+            });
+
+            $(".step-3_1 .step-submit").on("click", function(e){
+                $(".step-3_1").css('display', 'none');
+                $(".step-3_2").css('display', 'block');
+                if ($(window).width() < 992) {
+                    $(".step-3_1").css('display', 'block');
+                    $(".step-3_2").css('opacity', '1');
+                    $('html, body').animate({
+                        scrollTop: $(".step-3_2").offset().top
+                    }, 2000);
+                }
+                e.preventDefault();
+                e.stopPropagation();
+            });
+
+            $(".step-3_2 .step-submit").on("click", function(e){
+                
+                $(".step-3_2").css('display', 'none');
+                $(".step-3_3").css('display', 'block');
+                if ($(window).width() < 992) {
+                    $(".step-3_2").css('display', 'block');
+                    $(".step-3_3").css('opacity', '1');
+                    $('html, body').animate({
+                        scrollTop: $(".step-3_3").offset().top
+                    }, 2000);
+                }
+                e.preventDefault();
+                e.stopPropagation();
+            });
+
+            $(".step-3_3 .step-submit").on("click", function(e){
+                $(".step-3_3").css('display', 'none');
+                $(".step-4").css('display', 'block');
+                if ($(window).width() < 992) {
+                    $(".step-3_3").css('display', 'block');
+                    $(".step-4").css('opacity', '1');
+                    $('html, body').animate({
+                        scrollTop: $(".step-4").offset().top
+                    }, 2000);
+                }
+                e.preventDefault();
+                e.stopPropagation();
+            });
+        });
+    </script>
+</body>
+</html>

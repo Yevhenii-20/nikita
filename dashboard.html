@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="content flex-header">
+            <div class="left-header">
+                <a href="#" class="logotype">
+                    <div class="tag-logo">Tag</div>
+                    <div class="bot-logo">[Bot]</div>
+                </a>
+            </div>
+
+            <div class="burger-menu">
+                <div class="bar">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </div>
+            </div>
+
+            <div class="right-header">
+                <a href="#" class="aws-acc">AWS Accounts</a>
+                <a href="#" class="users">Users</a>
+                <a href="#" class="set-acc line-acc mobile">Account settings</a>
+                <a href="#" class="set-acc mobile">Log out</a>
+                <span class="header-line"></span>
+                <div href="#" class="user-info">
+                    <span class="username">Jane Cooper</span>
+                    <div class="user-img-block">
+                        <img src="./img/user-img.png" class="user-img" alt="">
+                    </div>
+                    <div class="hover-menu">
+                        <a href="#">Account settings</a>
+                        <a href="#">Log out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="flex-title">
+                <h1 class="title-dashboard">Dashboard</h1>
+                <div>
+                    <a href="#" class="refresh-text">
+                        <img src="./img/refresh.svg" alt="">
+                        <span>Refresh</span>
+                    </a>
+                    <a href="#" class="refresh-text">
+                        <img src="./img/plus-blue.svg" alt="">
+                        <span>Onboard organization</span>
+                    </a>
+                    <a href="#" class="add-tag-button modal-toggle">Add tag</a>
+                </div>
+            </div>
+
+            <div class="flex-dashboard">
+                <div class="left-dashboard">
+                    <div class="title-table-dashboard">
+                        <div class="top-10 active title-active">
+                            Top 10 tags
+                        </div>
+                        <div class="created-resoures title-active">
+                            Created resoures
+                        </div>
+                        <div class="tag-coverage title-active">
+                            Tag coverage
+                        </div>
+                    </div>
+
+                    <div class="table-scroll top-10-block">
+                        <table class="table-dashboard">
+                            <tr class="table-dashboard-t">
+                                <td>Tags</td>
+                                <td>Used</td>
+                                <td>Add standard</td>
+                            </tr>
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    <div class="row-tag">
+                                        user_name
+                                    </div> 
+                                </td>
+                                <td class="row-text">52%</td>
+                                <td><img src="./img/plus.svg" alt=""></td>
+                            </tr>
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    <div class="row-tag">
+                                        user_name
+                                    </div> 
+                                </td>
+                                <td class="row-text">52%</td>
+                                <td><img src="./img/plus.svg" alt=""></td>
+                            </tr>
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    <div class="row-tag">
+                                        user_name
+                                    </div> 
+                                </td>
+                                <td class="row-text">52%</td>
+                                <td><img src="./img/plus.svg" alt=""></td>
+                            </tr>
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    <div class="row-tag">
+                                        user_name
+                                    </div> 
+                                </td>
+                                <td class="row-text">52%</td>
+                                <td><img src="./img/plus.svg" alt=""></td>
+                            </tr>
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    <div class="row-tag">
+                                        user_name
+                                    </div> 
+                                </td>
+                                <td class="row-text">52%</td>
+                                <td><img src="./img/plus.svg" alt=""></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="table-scroll created-resoures-block">
+                        <table class="table-dashboard table-dashboard-c">
+                            <tr class="table-dashboard-t">
+                                <td>Email of user</td>
+                                <td>Count of resorces</td>
+                            </tr>
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    bill.sanders@example.com
+                                </td>
+                                <td class="row-text">232</td>
+                            </tr>
+
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    bill.sanders@example.com
+                                </td>
+                                <td class="row-text">232</td>
+                            </tr>
+
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    bill.sanders@example.com
+                                </td>
+                                <td class="row-text">232</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="table-scroll tag-coverage-block">
+                        <table class="table-dashboard table-dashboard-c">
+                            <tr class="table-dashboard-t">
+                                <td>Email of user</td>
+                                <td>Coverage of resorces (%)</td>
+                            </tr>
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    bill.sanders@example.com
+                                </td>
+                                <td class="row-text">100%</td>
+                            </tr>
+
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    bill.sanders@example.com
+                                </td>
+                                <td class="row-text">100%</td>
+                            </tr>
+
+                            <tr class="table-dashboard-row">
+                                <td>
+                                    bill.sanders@example.com
+                                </td>
+                                <td class="row-text">100%</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <a href="#" class="view-more">View more</a>
+                </div>
+
+                <div class="right-dashboard">
+                    <div class="top-10-block">
+                        <p class="text-connect">To control the tags, please connect your</p>
+                        <div class="flex-connect">
+                            <p class="connect-to">Connect to</p>
+                            <a href="#">
+                                <img src="./img/slack.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/google.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/gitlub.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/github.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/mt.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Account number</div>
+                            <div class="info-number">18909234809</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Resources count</div>
+                            <div class="info-number">245</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Total tags count</div>
+                            <div class="info-number">18909234809</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Tags by the standart in %</div>
+                            <div class="info-number">72%</div>
+                        </div>
+                    </div>
+
+                    <div class="created-resoures-block">
+                        <p class="text-connect">You are almost there, please wait</p>
+                        <div class="flex-connect">
+                            <p class="connect-to yellow">Connecting to</p>
+                            <a href="#">
+                                <img src="./img/logos_slack.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Account number</div>
+                            <div class="info-number">18909234809</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Resources count</div>
+                            <div class="info-number">245</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Total tags count</div>
+                            <div class="info-number">18909234809</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Tags by the standart in %</div>
+                            <div class="info-number">26%</div>
+                        </div>
+                    </div>
+
+                    <div class="tag-coverage-block">
+                        <p class="text-connect">You have been successfully connected</p>
+                        <div class="flex-connect">
+                            <p class="connect-to orange">Disconnect your</p>
+                            <a href="#">
+                                <img src="./img/logos_slack.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Account number</div>
+                            <div class="info-number">18909234809</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Resources count</div>
+                            <div class="info-number">245</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Total tags count</div>
+                            <div class="info-number">18909234809</div>
+                        </div>
+                        <div class="frame-connect">
+                            <div class="info-title">Tags by the standart in %</div>
+                            <div class="info-number">88%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+      
+    <div class="modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+          <div class="modal-header">
+            <button class="modal-close modal-toggle"><img src="./img/close.svg" alt=""></button>
+          </div>
+          
+            <div class="modal-body">
+                <div class="flex-welcome">
+                    <span class="weclome-to">Please, define key values</span>
+                </div>
+                <form action="#" class="main-form">
+                    <div class="flex-key-value">
+                        <div class="block-pswrd">
+                            <div class="placeholder-container">
+                                <input type="text" class="focus-input" placeholder=" " />
+                                <label>Enter key </label>
+                                <a href="#" class="show-password"><img src="./img/close.svg" alt=""></a>
+                            </div>
+                        </div>  
+                        <a href="#"><img src="./img/delete.svg" alt=""></a>
+                    </div>
+                    <div class="flex-key-value">
+                        <div class="block-pswrd">
+                            <div class="placeholder-container">
+                                <input type="text" class="focus-input" placeholder=" " />
+                                <label>Enter key </label>
+                                <a href="#" class="show-password"><img src="./img/close.svg" alt=""></a>
+                            </div>
+                        </div>  
+                        <a href="#"><img src="./img/delete.svg" alt=""></a>
+                    </div>
+                    <div class="flex-key-value">
+                        <div class="block-pswrd">
+                            <div class="placeholder-container">
+                                <input type="text" class="focus-input" placeholder=" " />
+                                <label>Enter key </label>
+                                <a href="#" class="show-password"><img src="./img/close.svg" alt=""></a>
+                            </div>
+                        </div>  
+                        <a href="#"><img src="./img/delete.svg" alt=""></a>
+                    </div>
+                    <div class="flex-key-value">
+                        <div class="block-pswrd">
+                            <div class="placeholder-container">
+                                <input type="text" class="focus-input" placeholder=" " />
+                                <label>Enter key </label>
+                                <a href="#" class="show-password"><img src="./img/close.svg" alt=""></a>
+                            </div>
+                        </div>  
+                        <a href="#"><img src="./img/delete.svg" alt=""></a>
+                    </div>
+                    <a href="#" class="new-tag">
+                        <img src="./img/plus.svg" alt="">
+                        <span>New Tag</span>
+                    </a>
+                    <div>
+                        <input type="submit" name="submit" class="form-submit" value="Onboard your Organization">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+    <script>
+            $( document ).ready(function() {
+                $('.modal-toggle').on('click', function(e) {
+                    e.preventDefault();
+                    $('.modal').toggleClass('is-visible');
+                });
+
+
+                $(function() {
+                    $(".title-active").click(function() {
+                        // remove classes from all
+                        $(".title-active").removeClass("active");
+                        // add class to the one we clicked
+                        $(this).addClass("active");
+                    });
+
+                    $(".top-10").click(function() {
+                        $(".top-10-block").css('display', 'block');
+                        $(".created-resoures-block, .tag-coverage-block").css('display', 'none');
+                    });
+
+                    $(".created-resoures").click(function() {
+                        $(".created-resoures-block").css('display', 'block');
+                        $(".top-10-block, .tag-coverage-block").css('display', 'none');
+                    });
+
+                    $(".tag-coverage").click(function() {
+                        $(".tag-coverage-block").css('display', 'block');
+                            $(".top-10-block, .created-resoures-block").css('display', 'none');
+                    });
+                });
+            });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="content flex-header">
+            <div class="left-header">
+                <a href="#" class="logotype">
+                    <div class="tag-logo">Tag</div>
+                    <div class="bot-logo">[Bot]</div>
+                </a>
+            </div>
+
+            <div class="burger-menu">
+                <div class="bar">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </div>
+            </div>
+
+            <div class="right-header">
+                <a href="#" class="aws-acc">AWS Accounts</a>
+                <a href="#" class="users">Users</a>
+                <a href="#" class="set-acc line-acc mobile">Account settings</a>
+                <a href="#" class="set-acc mobile">Log out</a>
+                <span class="header-line"></span>
+                <div href="#" class="user-info">
+                    <span class="username">Jane Cooper</span>
+                    <div class="user-img-block">
+                        <img src="./img/user-img.png" class="user-img" alt="">
+                    </div>
+                    <div class="hover-menu">
+                        <a href="#">Account settings</a>
+                        <a href="#">Log out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <div class="content flex-main">
+                <div class="main-form-block space-block">
+                    <div class="flex-welcome">
+                        <span class="weclome-to">Onboard your Organization</span>
+                    </div>
+                    <p class="text-form">You need to be logged in to your <span class="bold">AWS Management
+                        account (Organization Root Account)</span> in this browser
+                        before you can connect TagBot. Tagbot requires billing
+                        data in order to optimize your AWS spending. <span class="bold blue">Log in</span>
+                        </p>
+                    <p class="text-form">When the AWS Management Account is onboarded,
+                        TagBot provides options on Organizational Units to deploy with a single click.</p>
+                    
+                    <a href="#" class="onboard-button">Onboard your Organization</a>
+                    <p class="text-form">Don't have access to your <span class="bold">AWS Management Account?</span></p>
+                    <p class="text-form">Try <span class="bold">TagBot</span> on any single account.</p>
+                    <div class="flex-sbs">
+                        <a href="#">Step-by-step guide </a>
+                        <a href="#">What's in the template?</a>
+                    </div>
+                    <a href="#" class="single-aws-acc">Try on a single AWS Account</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
